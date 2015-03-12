@@ -12,7 +12,15 @@ System requirements
  * Web server with symlink support
  * PHP 5.4+ with GDlib, DOM, Phar, openssl and SOAP
  * MySQL 5.5+
+
+
+Prerequisites
+-------------
+
  * A Symfony 2.6+ installation
+
+If you do not yet have a Symfony installation, we recommend installing the
+[Contao standard edition][2].
 
 
 Installation
@@ -80,8 +88,9 @@ Contao is licensed under the terms of the LGPLv3.
 Getting support
 ---------------
 
-Visit the [support page][2] to learn about the available support options.
+Visit the [support page][3] to learn about the available support options.
 
 
 [1]: https://contao.org
-[2]: https://contao.org/support.html
+[2]: https://github.com/contao/standard-edition
+[3]: https://contao.org/support.html

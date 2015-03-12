@@ -34,13 +34,13 @@ Open a command console, enter your project directory and add the following to
     "contao/contao": "~4.0"
 },
 "config": {
-    "component-dir": "web/assets"
+    "component-dir": "assets"
 },
 "post-install-cmd": {
-    "php app/console contao:setup"
+    "Contao\\CoreBundle\\Composer\\ScriptHandler::addContaoDirectories"
 },
 "post-update-cmd": {
-    "php app/console contao:setup"
+    "Contao\\CoreBundle\\Composer\\ScriptHandler::addContaoDirectories"
 }
 ``` 
 

@@ -41,6 +41,9 @@
         "contao-components/tablesorter": "~2.0",
         "contao-components/tinymce4": "~4.1"
     },
+    "replace": {
+        "contao/core": "self.version"
+    },
     "extra": {
         "branch-alias": {
             "dev-develop": "4.0.x-dev"

@@ -11,7 +11,7 @@ System requirements
 
  * Web server with symlink support
  * PHP 5.4+ with GDlib, DOM, Phar, openssl and SOAP
- * MySQL 5.5+
+ * MySQL 5.0.3+
 
 
 Prerequisites
